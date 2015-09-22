@@ -3,6 +3,10 @@
     src: url(light.woff);
 }
 
+#film{
+  position: absolute;
+}
+
 .coverSubtitle{
   font-size: 50px;
   color: white;
