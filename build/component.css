@@ -19,7 +19,7 @@
 
 .os-phrases h3,
 .os-phrases h3 > span {
-	top:50%;
+	top:25%;
 	/* Centering with flexbox */
 	display: -webkit-box;
 	display: -moz-box;
@@ -64,9 +64,9 @@
 	-webkit-transform: translate3d(0,0,0);
 	-moz-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
-	-webkit-animation: OpeningSequence 3.2s linear forwards;
-	-moz-animation: OpeningSequence 3.2s linear forwards;
-	animation: OpeningSequence 3.2s linear forwards;
+	-webkit-animation: OpeningSequence 4s linear forwards;
+	-moz-animation: OpeningSequence 4s linear forwards;
+	animation: OpeningSequence 4s linear forwards;
 }
 
 .os-phrases h3:nth-child(2) > span > span > span {

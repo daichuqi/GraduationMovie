@@ -11,15 +11,20 @@
   z-index: 200000
 }
 
-#menu{
+.backmenu{
   position: absolute;
-  right: 30px;
-  top: 30px;
-  color: white;
-  font-size: 60px;
-  z-index: 5000003
+  background-color: #191919;
+  right: 20px;
 }
 
+#menu{
+  position: absolute;
+  right: 60px;
+  top:20px;
+  color: white;
+  font-size: 50px;
+  z-index: 5000003
+}
 .coverImgCover {
     height: 100vh;
     z-index: 100;
@@ -28,9 +33,11 @@
     width: 100%;
     transition:  background-color 2s;
 }
-
 .bigBox{
   background-color:#191919;
+  position: absolute;
+  transition: left 0.5s;
+  left: 0;
 }
 .names{
   padding: 60px;
@@ -72,10 +79,16 @@
   z-index: 20;
 }
 
-
-
-@media (min-width:160px) and (max-width:1500px){ /* DESKTOP */
-
+@media (min-width:550px) and (max-width:1500px){ /* DESKTOP */
+  .backMenu{
+    position: absolute;
+    background-color: #191919;
+    right: 20px;
+  }
+  .goleft{
+    left: -500px;
+    transition: left 0.5s;
+  }
   .contact{
     color: white;
     text-align: center;
@@ -87,7 +100,9 @@
   .mobileCover{
     display:none;
   }
-
+  .destopCover{
+    display: block;
+  }
   .coverTitle{
   font-size: 50px;
   letter-spacing: -7px;
@@ -118,7 +133,7 @@
     z-index: 2000000;
     color: white;
     left:45%;
-    top: 65%;
+    top: 38%;
     width:80px;
     height: 80px;
     border: 5px solid;
@@ -131,12 +146,12 @@
   cursor: pointer;
 }
 .scrolldown{
-     font-size: 50px;
+     font-size: 45px;
     position: absolute;
     z-index: 120;
     color: #e0e0e0;
     left: 46%;
-    top: 85%;
+    top: 52%;
     text-align: center;
 }
   .playicon{
@@ -222,8 +237,7 @@
   z-index: 200009
 }
 
-
-    .coverTitle{
+.coverTitle{
   font-size: 80px;
   letter-spacing: -7px;
   color: white;
@@ -297,7 +311,7 @@
     z-index: 3000002;
     color: white;
     left: 38%;
-    top: 65%;
+    top: 45%;
     width:200px;
     height: 200px;
     border: 10px solid;

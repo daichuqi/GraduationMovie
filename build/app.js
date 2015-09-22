@@ -7,7 +7,7 @@ $('#play').click(function() {
 });
 
 $('#menu').click(function() {
-  console.log('hello!!!!');
+  $('.bigBox').addClass( "goleft" );
 });
 
 window.onkeyup = function(e) {
