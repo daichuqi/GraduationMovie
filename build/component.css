@@ -19,7 +19,7 @@
 
 .os-phrases h3,
 .os-phrases h3 > span {
-	height: 100%;
+	top:50%;
 	/* Centering with flexbox */
 	display: -webkit-box;
 	display: -moz-box;

@@ -11,7 +11,14 @@
   z-index: 200000
 }
 
-
+#menu{
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  color: white;
+  font-size: 60px;
+  z-index: 5000003
+}
 
 .coverImgCover {
     height: 100vh;
@@ -206,6 +213,15 @@
     display:block;
   }
 
+  #menu{
+  position: absolute;
+  right: 70px;
+  top: 60px;
+  color: white;
+  font-size: 90px;
+  z-index: 200009
+}
+
 
     .coverTitle{
   font-size: 80px;
@@ -244,12 +260,13 @@
     margin-top: 10px;
   }
   .title{
-    font-size: 80px;
+    font-size: 90px;
     color: #eeeeee;
     text-align: center;
     padding: 10px;
     font-family: Light;
     text-transform: uppercase;
+    letter-spacing: -7px;
   }
   .subTitle{
     font-size: 40px;
