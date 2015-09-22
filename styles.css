@@ -1,0 +1,44 @@
+@font-face {
+    font-family: nexaLight;
+    src: url(/NexaLight.otf);
+}
+
+.background{
+  position: fixed;
+  bottom: 0px;
+  background: #fff;
+  z-index: 1;
+  height: 650px;
+}
+.coverImg{
+  height: 100%;
+  z-index: 10;
+  position: relative;
+  padding-bottom: 630px;
+}
+
+.cover{
+  z-index: 20;
+}
+
+@media (min-width:760px) and (max-width:1500px){ /* DESKTOP */
+  .background{
+    width: 100%;
+    bottom: 0;
+    color: white;
+    background-color:#191919;
+    z-index: 1;
+  }
+}
+
+
+@media only screen and (orientation : portrait) { /* PHONE */
+  .title{
+    font-size: 100px;
+    text-align: center;
+    padding: 20px;
+    padding-top: 100px;
+    font-family: nexaLight;
+    text-transform: uppercase;
+  }
+}
