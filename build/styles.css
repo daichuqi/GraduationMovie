@@ -7,7 +7,7 @@
     position: absolute;
     z-index: 120;
     color: white;
-    left: 40%;
+    left: 38%;
     top: 50%;
     width:200px;
     height: 200px;
@@ -22,8 +22,18 @@
 
 }
 
+.scrolldown{
+    font-size: 80px;
+    position: absolute;
+    z-index: 120;
+    color: #D0D0D0;
+    left: 43%;
+    top: 85%;
+    text-align: center;
+}
+
 .coverSubtitle{
-  font-size: 40px;
+  font-size: 50px;
   color: white;
   position: absolute;
   z-index: 301;
@@ -51,7 +61,7 @@
     position: absolute;
     background-color: rgba(26, 36, 47, 0.44);
     width: 100%;
-
+    transition:  background-color 2s;
 }
 
 .bigBox{
