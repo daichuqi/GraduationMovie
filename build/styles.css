@@ -2,10 +2,31 @@
     font-family: nexaLight;
     src: url(NexaLight.otf);
 }
+.playbutton {
+    font-size: 100px;
+    position: absolute;
+    z-index: 120;
+    color: white;
+    left: 40%;
+    top: 50%;
+    width:200px;
+    height: 200px;
+    border: 10px solid;
+    border-color: white;
+    text-align: center;
+    border-radius: 100%;
+}
+.playicon{
+  margin-left: 25px;
+  margin-top: 50px;
+}
 
-@font-face {
-    font-family: youyuan;
-    src: url(YouYuan.ttf);
+.coverImgCover {
+    height: 100vh;
+    z-index: 100;
+    position: absolute;
+    background-color: rgba(26, 36, 47, 0.34);
+    width: 100%;
 }
 
 .bigBox{
@@ -15,7 +36,6 @@
   padding: 60px;
   padding-top: 20px;
   letter-spacing: -3px;
-  font-family: youyuan;
   text-align: center;
 }
 .titleName{
