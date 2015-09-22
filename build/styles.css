@@ -187,6 +187,11 @@
     display: none;
   }
 
+  .mobileCover{
+    display:block;
+  }
+
+
     .coverTitle{
   font-size: 80px;
   letter-spacing: -7px;
