@@ -94,16 +94,10 @@
 }
 
 .os-phrases h3:nth-child(6) > span > span > span {
-	-webkit-animation-delay: 23s;
-	-moz-animation-delay: 23s;
-	animation-delay: 23s;
-}
-
-.os-phrases h3:nth-child(7) > span > span > span {
-	-webkit-animation-delay: 28s;
-	-moz-animation-delay: 28s;
-	animation-delay: 28s;
-	animation-duration: 30s;
+	font-size: 40px;
+	-webkit-animation: FadeIn 4s linear 23s forwards;
+	-moz-animation: FadeIn 4s linear 23s forwards;
+	animation: FadeIn 4s linear 23s forwards;
 }
 
 @-webkit-keyframes OpeningSequence {
@@ -184,12 +178,7 @@
 	}
 }
 
-.os-phrases h3:nth-child(8) > span > span > span {
-	font-size: 30px;
-	-webkit-animation: FadeIn 4s linear 40s forwards;
-	-moz-animation: FadeIn 4s linear 40s forwards;
-	animation: FadeIn 4s linear 40s forwards;
-}
+
 
 @-webkit-keyframes FadeIn {
 	0% {
