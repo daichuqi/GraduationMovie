@@ -57,7 +57,7 @@
   width: 100%;
   z-index: 10;
   position: relative;
-  padding-bottom: 630px;
+  padding-bottom: 730px;
   overflow: hidden;
 }
 
@@ -65,8 +65,18 @@
   z-index: 20;
 }
 
-@media (min-width:760px) and (max-width:1500px){ /* DESKTOP */
 
+
+@media (min-width:160px) and (max-width:1500px){ /* DESKTOP */
+
+  .contact{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    z-index: 990000;
+  }
   .mobileCover{
     display:none;
   }
@@ -140,7 +150,6 @@
     color: #eeeeee;
     text-align: center;
     padding: 10px;
-    padding-top: 70px;
     font-family: Light;
     text-transform: uppercase;
   }
@@ -153,7 +162,7 @@
   .names{
     margin-right: auto;
     margin-left: auto;
-    width: 700px;
+    width: 900px;
     padding: 60px;
     padding-top: 20px;
     letter-spacing: -1px;
@@ -174,7 +183,7 @@
     width: 100%;
     z-index: 10;
     position: relative;
-    padding-bottom: 330px;
+    padding-bottom: 430px;
     overflow: hidden;
   }
 }
@@ -182,7 +191,13 @@
 
 @media only screen and (orientation : portrait) { /* PHONE */
 
-
+  .contact{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+  }
   .destopCover{
     display: none;
   }
@@ -233,7 +248,6 @@
     color: #eeeeee;
     text-align: center;
     padding: 10px;
-    padding-top: 100px;
     font-family: Light;
     text-transform: uppercase;
   }
@@ -252,7 +266,7 @@
     width: 100%;
     z-index: 10;
     position: relative;
-    padding-bottom: 630px;
+    padding-bottom: 730px;
     overflow: hidden;
   }
 
@@ -291,7 +305,7 @@
   .names{
     margin-right: auto;
     margin-left: auto;
-    width: 900px;
+    width: 800px;
     padding: 60px;
     padding-top: 20px;
     letter-spacing: -1px;
