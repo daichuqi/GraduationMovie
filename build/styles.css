@@ -1,6 +1,6 @@
 @font-face {
-    font-family: nexaLight;
-    src: url(NexaLight.otf);
+    font-family: Light;
+    src: url(light.woff);
 }
 .playbutton {
     font-size: 100px;
@@ -19,13 +19,36 @@
 .playicon{
   margin-left: 25px;
   margin-top: 50px;
+
+}
+
+.coverSubtitle{
+  font-size: 40px;
+  color: white;
+  position: absolute;
+  z-index: 301;
+  text-transform: uppercase;
+  top:8%;
+  left:5%;
+}
+
+.coverTitle{
+  font-size: 80px;
+  letter-spacing: -7px;
+  color: white;
+  position: absolute;
+  z-index: 300;
+  font-family: Light;
+  text-transform: uppercase;
+  top:2%;
+  left:5%;
 }
 
 .coverImgCover {
     height: 100vh;
     z-index: 100;
     position: absolute;
-    background-color: rgba(26, 36, 47, 0.34);
+    background-color: rgba(26, 36, 47, 0.44);
     width: 100%;
 }
 
@@ -35,7 +58,7 @@
 .names{
   padding: 60px;
   padding-top: 20px;
-  letter-spacing: -3px;
+  letter-spacing: -2px;
   text-align: center;
 }
 .titleName{
@@ -60,6 +83,7 @@
   height: 650px;
 }
 .coverImg{
+  top:-50px;
   height: 100%;
   width: 100%;
   z-index: 10;
@@ -89,12 +113,13 @@
     text-align: center;
     padding: 10px;
     padding-top: 100px;
-    font-family: nexaLight;
+    font-family: Light;
     text-transform: uppercase;
   }
   .subTitle{
     font-size: 40px;
     text-align: center;
+    font-family: Light;
     text-transform: uppercase;
   }
 }
