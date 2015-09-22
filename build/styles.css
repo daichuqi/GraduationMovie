@@ -5,6 +5,7 @@
 
 #film{
   position: absolute;
+  visibility: hidden;
 }
 
 .os-phrases{
@@ -12,9 +13,14 @@
 }
 
 .backmenu{
-  position: absolute;
-  background-color: #191919;
-  right: 20px;
+    color: white;
+    margin: 0;
+    width: 450px;
+    padding: 30px;
+    height: 100%;
+    float: right;
+    background-color: #737373;
+    right: 20px;
 }
 
 #menu{
@@ -36,8 +42,8 @@
 .bigBox{
   background-color:#191919;
   position: absolute;
-  transition: left 0.5s;
-  left: 0;
+  transition: right 0.5s;
+  right: 0;
 }
 .names{
   padding: 60px;
@@ -65,6 +71,8 @@
   background: #fff;
   z-index: 1;
   height: 650px;
+  transition: right 0.5s;
+  right: 0;
 }
 .coverImg{
   height: 100vh;
@@ -81,13 +89,19 @@
 
 @media (min-width:550px) and (max-width:1500px){ /* DESKTOP */
   .backMenu{
-    position: absolute;
-    background-color: #191919;
+    color: white;
+    margin: 0;
+    width: 450px;
+    padding: 30px;
+    height: 100%;
+    float: right;
+    background-color: #737373;
     right: 20px;
   }
   .goleft{
+    right: 500px;
     left: -500px;
-    transition: left 0.5s;
+    transition: right 0.5s;
   }
   .contact{
     color: white;
@@ -166,7 +180,9 @@
     background-color:#191919;
     z-index: 1;
     height: 350px;
+    transition: right 0.5s;
   }
+
   .title{
     font-size: 60px;
     color: #eeeeee;
@@ -212,6 +228,11 @@
 
 
 @media only screen and (orientation : portrait) { /* PHONE */
+
+.os-phrases h3,
+.os-phrases h3 > span {
+  top:700px;
+}
 
   .contact{
     color: white;
@@ -330,7 +351,7 @@
     z-index: 120;
     color: #D0D0D0;
     left: 43%;
-    top: 85%;
+    top: 60%;
     text-align: center;
 }
   .names{

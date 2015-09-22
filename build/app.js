@@ -1,4 +1,5 @@
 var vid = document.getElementById("film");
+var toggle = false;
 
 $('#play').click(function() {
   vid.play();
@@ -7,7 +8,16 @@ $('#play').click(function() {
 });
 
 $('#menu').click(function() {
-  $('.bigBox').addClass( "goleft" );
+  if(!toggle){
+    $('.bigBox').addClass( "goleft" );
+    $('.background').addClass('goleft');
+    toggle = true;
+  }else{
+    $('.bigBox').removeClass( "goleft" );
+    $('.background').removeClass('goleft');
+    toggle = false;
+  }
+
 });
 
 window.onkeyup = function(e) {
