@@ -1,6 +1,35 @@
 @font-face {
     font-family: nexaLight;
-    src: url(/NexaLight.otf);
+    src: url(NexaLight.otf);
+}
+
+@font-face {
+    font-family: youyuan;
+    src: url(YouYuan.ttf);
+}
+
+.bigBox{
+  background-color:#191919;
+}
+.names{
+  padding: 60px;
+  padding-top: 20px;
+  letter-spacing: -3px;
+  font-family: youyuan;
+  text-align: center;
+}
+.titleName{
+  font-size: 40px;
+  color: #afafaf;
+}
+
+.pplName{
+  font-size: 30px;
+  color: #dfdfdf;
+}
+
+.body{
+  background-color:#191919;
 }
 
 .background{
@@ -35,11 +64,17 @@
 
 @media only screen and (orientation : portrait) { /* PHONE */
   .title{
-    font-size: 100px;
+    font-size: 80px;
+    color: #eeeeee;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     padding-top: 100px;
     font-family: nexaLight;
+    text-transform: uppercase;
+  }
+  .subTitle{
+    font-size: 40px;
+    text-align: center;
     text-transform: uppercase;
   }
 }
