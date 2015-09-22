@@ -2,35 +2,6 @@
     font-family: Light;
     src: url(light.woff);
 }
-.playbutton {
-    font-size: 100px;
-    position: absolute;
-    z-index: 120;
-    color: white;
-    left: 38%;
-    top: 50%;
-    width:200px;
-    height: 200px;
-    border: 10px solid;
-    border-color: white;
-    text-align: center;
-    border-radius: 100%;
-}
-.playicon{
-  margin-left: 25px;
-  margin-top: 50px;
-
-}
-
-.scrolldown{
-    font-size: 80px;
-    position: absolute;
-    z-index: 120;
-    color: #D0D0D0;
-    left: 43%;
-    top: 85%;
-    text-align: center;
-}
 
 .coverSubtitle{
   font-size: 50px;
@@ -108,17 +79,95 @@
 }
 
 @media (min-width:760px) and (max-width:1500px){ /* DESKTOP */
+  .playbutton {
+    font-size: 50px;
+    position: absolute;
+    z-index: 120;
+    color: white;
+    left:45%;
+    top: 45%;
+    width:100px;
+    height: 100px;
+    border: 5px solid;
+    border-color: white;
+    text-align: center;
+    border-radius: 100%;
+}
+.scrolldown{
+     font-size: 50px;
+    position: absolute;
+    z-index: 120;
+    color: #D0D0D0;
+    left: 46%;
+    top: 75%;
+    text-align: center;
+}
+  .playicon{
+    margin-left: 15px;
+    margin-top: 25px;
+  }
   .background{
     width: 100%;
     bottom: 0;
     color: white;
     background-color:#191919;
     z-index: 1;
+    height: 350px;
+  }
+  .title{
+    font-size: 60px;
+    color: #eeeeee;
+    text-align: center;
+    padding: 10px;
+    padding-top: 70px;
+    font-family: Light;
+    text-transform: uppercase;
+  }
+  .subTitle{
+    font-size: 20px;
+    text-align: center;
+    font-family: Light;
+    text-transform: uppercase;
+  }
+  .names{
+    margin-right: auto;
+    margin-left: auto;
+    width: 700px;
+    padding: 60px;
+    padding-top: 20px;
+    letter-spacing: -1px;
+    text-align: center;
+    }
+
+    .titleName{
+      font-size: 25px;
+      color: #afafaf;
+    }
+
+    .pplName{
+      font-size: 20px;
+      color: #dfdfdf;
+    }
+  .coverImg{
+    height: 100vh;
+    width: 100%;
+    z-index: 10;
+    position: relative;
+    padding-bottom: 330px;
+    overflow: hidden;
   }
 }
 
 
 @media only screen and (orientation : portrait) { /* PHONE */
+    .background{
+    width: 100%;
+    bottom: 0;
+    color: white;
+    background-color:#191919;
+    z-index: 1;
+    height: 650px;
+  }
   .title{
     font-size: 80px;
     color: #eeeeee;
@@ -134,4 +183,59 @@
     font-family: Light;
     text-transform: uppercase;
   }
+      .titleName{
+      font-size: 40px;
+      color: #afafaf;
+    }
+      .coverImg{
+    height: 100vh;
+    width: 100%;
+    z-index: 10;
+    position: relative;
+    padding-bottom: 630px;
+    overflow: hidden;
+  }
+
+    .pplName{
+      font-size: 30px;
+      color: #dfdfdf;
+    }
+    .playbutton {
+    font-size: 100px;
+    position: absolute;
+    z-index: 120;
+    color: white;
+    left: 38%;
+    top: 50%;
+    width:200px;
+    height: 200px;
+    border: 10px solid;
+    border-color: white;
+    text-align: center;
+    border-radius: 100%;
+}
+.playicon{
+  margin-left: 25px;
+  margin-top: 50px;
+}
+
+.scrolldown{
+    font-size: 80px;
+    position: absolute;
+    z-index: 120;
+    color: #D0D0D0;
+    left: 43%;
+    top: 85%;
+    text-align: center;
+}
+  .names{
+    margin-right: auto;
+    margin-left: auto;
+    width: 900px;
+    padding: 60px;
+    padding-top: 20px;
+    letter-spacing: -1px;
+    text-align: center;
+    }
+
 }
