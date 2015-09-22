@@ -4,16 +4,29 @@
   <meta charset="UTF-8">
   <title>Graduation | YIJIA DAI </title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" />
+  <link rel="stylesheet" type="text/css" href="component.css" />
   <link rel="stylesheet" href="font-awesome-4.4.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles.css" />
-  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
 </head>
 <body>
+
+<div class="container">
+  <div class="os-phrases" id="os-phrases">
+    <h2>普渡中国留学生纪录片</h2>
+    <h2>记录我们自己的毕业故事</h2>
+    <h2>谨以此片献给所有北美留学生</h2>
+    <h2>时光荏苒 不忘初心</h2>
+  </div>
+</div>
 
 <video controls preload="auto" id='film'>
   <source src="film.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+
+
 
 <div class="playbutton" id='play'>
   <div class="fa fa-play playicon"></div>
@@ -23,39 +36,46 @@
   <div class="fa fa-chevron-down playicon"></div>
 </div>
 
-<div class="coverSubtitle">2015 SEP 03TH</div>
+
 <div class="coverTitle">Graduation</div>
+<div class="coverSubtitle">A YIJIA DAI FILM</div>
 
 <div class='bigBox'>
   <div class='cover'>
     <div class='coverImgCover'></div>
-    <img class='coverImg' src="image/cover2.jpg" >
+    <img class='coverImg mobileCover' src="image/cover2.jpg" >
+    <img class='coverImg destopCover' src="image/cover3.jpg" >
   </div>
   <div class='background'>
     <div class='title'>Graduation</div>
-    <div class='subTitle'>A YIJIA DAI FILM</div>
     <div class="names">
       <span class="titleName">总摄像 </span>
       <span class="pplName">于军    蔡静鹤  | </span>
-       <span class="titleName">特别摄像 </span>
+      <span class="titleName">特别摄像 </span>
       <span class="pplName"> 赵骥远   | </span>
-       <span class="titleName">音乐 </span>
+      <span class="titleName">音乐 </span>
       <span class="pplName">沙天玥    刘力成 | </span>
-             <span class="titleName">外联 </span>
+      <span class="titleName">外联 </span>
       <span class="pplName">李逸轩   | </span>
-             <span class="titleName">摄影助理  </span>
+      <span class="titleName">摄影助理  </span>
       <span class="pplName">奚恩裴    周鸣熠 | </span>
-             <span class="titleName">文字  </span>
+      <span class="titleName">文字  </span>
       <span class="pplName">沙天玥       |    </span>
-             <span class="titleName"> 顾问老师  </span>
+      <span class="titleName"> 顾问老师  </span>
       <span class="pplName">洪玮老师   王寄瀛老师 | </span>
-
       <div class="pplName">普渡大学中国学生学者联合会 PUCSSA   |  Voice我是 北美留学生杂志 | 中国全球连接Global China Connection  |  普渡中国学生工程会CESC   普渡大学官方合作伙伴    |   International Programs    | </div>
 
     </div>
   </div>
 </div>
- <script src="app.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="app.js"></script>
+  <script src="jquery.lettering.js"></script>
+  <script>
+    $(document).ready(function() {
+      $("#os-phrases > h2").lettering('words').children("span").lettering().children("span").lettering();
+    })
+  </script>
 
 </body>
 </html>
