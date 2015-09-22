@@ -27,6 +27,7 @@
   color: white;
   position: absolute;
   z-index: 301;
+  font-family: Light;
   text-transform: uppercase;
   top:8%;
   left:5%;
@@ -50,6 +51,7 @@
     position: absolute;
     background-color: rgba(26, 36, 47, 0.44);
     width: 100%;
+    overflow: hidden;
 }
 
 .bigBox{
