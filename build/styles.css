@@ -263,7 +263,7 @@
     .playbutton {
     font-size: 100px;
     position: absolute;
-    z-index: 200002;
+    z-index: 3000002;
     color: white;
     left: 38%;
     top: 65%;
@@ -275,8 +275,8 @@
     border-radius: 100%;
 }
 .playicon{
-  margin-left: 25px;
-  margin-top: 50px;
+  margin-left: 22px;
+  margin-top: 65px;
 }
 
 .scrolldown{
