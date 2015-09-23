@@ -11,10 +11,14 @@ $('#menu').click(function() {
   if(!toggle){
     $('.bigBox').addClass( "goleft" );
     $('.background').addClass('goleft');
+    $('.coverTitle').addClass('goleft');
+    $('.coverSubtitle').addClass('goleft');
     toggle = true;
   }else{
     $('.bigBox').removeClass( "goleft" );
     $('.background').removeClass('goleft');
+    $('.coverTitle').removeClass('goleft');
+    $('.coverSubtitle').removeClass('goleft');
     toggle = false;
   }
 

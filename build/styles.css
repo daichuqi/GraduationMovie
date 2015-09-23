@@ -6,6 +6,11 @@ body{
   background-color: #232323;
 }
 
+a{
+  color: white;
+  text-decoration: none;
+}
+
 #film{
   position: absolute;
   visibility: hidden;
@@ -309,6 +314,7 @@ body{
   text-transform: uppercase;
   top:2%;
   left:5%;
+  transition: right 1s;
 }
 
   .coverSubtitle{
@@ -321,6 +327,7 @@ body{
     letter-spacing: 10px;
     top: 7.5%;
     left: 6%;
+    transition: right 1s;
   }
     .background{
     width: 100%;
@@ -328,7 +335,7 @@ body{
     color: white;
     background-color:#191919;
     z-index: 1;
-    height: 650px;
+    height: 750px;
   }
   .playicon{
     font-size: 65px;
@@ -359,7 +366,7 @@ body{
     width: 100%;
     z-index: 10;
     position: relative;
-    padding-bottom: 730px;
+    padding-bottom: 820px;
     overflow: hidden;
   }
 
