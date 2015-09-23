@@ -17,6 +17,9 @@ a{
   visibility: hidden;
 }
 
+.youkuPlay:hover{
+  background-color: rgba(50, 193, 255, 0.8);
+}
 .os-phrases{
   z-index: 200000
 }
@@ -105,6 +108,8 @@ a{
 }
 
 @media (min-width:550px) and (max-width:1500px){ /* DESKTOP */
+
+
 
   .daiyijia{
     font-size: 40px;
@@ -275,22 +280,48 @@ a{
   margin-top: 20px;
 }
 .fa-youtube{
-  margin-right: 20px;
-  margin-left: 30px;
-  margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.youku{
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#youkuText{
+  margin-top: 20px;
 }
 .youtubePlay {
+    display: -webkit-inline-box;
     background-color: rgba(255, 0, 0, 0.47);
-    width: 300px;
-    height: 100px;
+    width: auto;
+    height: 70px;
+    padding-right: 20px;
     border-radius: 20px;
-    font-size: 40px;
+    font-size: 30px;
     margin-left: 50px;
     margin-top: 30px;
     margin-bottom: 60px;
 }
 .youtubePlay:hover{
   background-color: red;
+}
+.youkuPlay{
+    background-color: rgba(0, 178, 255, 0.47);
+    display: -webkit-inline-box;
+    width: auto;
+    height: 70px;
+    padding-right: 20px;
+    border-radius: 20px;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 60px;
 }
 
 }
@@ -321,19 +352,42 @@ a{
   margin-top: 30px;
 }
 .fa-youtube{
-  margin-right: 40px;
-  margin-left: 70px;
+  margin-right: 30px;
+  margin-left: 40px;
+  margin-top: 35px;
+}
+.youku{
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#youkuText{
   margin-top: 30px;
 }
-.youtubePlay {
-    background-color: rgba(255, 0, 0, 0.47);
-    width: 600px;
+
+.youkuPlay{
+    padding-right: 50px;
+    background-color: rgba(0, 178, 255, 0.47);
+    width: auto;
     height: 150px;
     border-radius: 20px;
-    font-size: 80px;
+    font-size: 75px;
     margin-left: 100px;
+    margin-bottom: 0;
     margin-top: 100px;
-    margin-bottom: 150px;
+}
+.youtubePlay {
+    padding-right: 50px;
+    background-color: rgba(255, 0, 0, 0.47);
+    width: auto;
+    height: 150px;
+    border-radius: 20px;
+    font-size: 75px;
+    margin-left: 100px;
+    margin-bottom: 0;
+    margin-top: 100px;
 }
 
   .contact{
