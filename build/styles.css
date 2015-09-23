@@ -265,10 +265,9 @@ a{
   border-radius: 20px;
   cursor: pointer;
 }
-
-.newsItem:hover{
-  background-color: grey;
-}
+  .newsItem:hover{
+    background-color: grey;
+  }
 
 .youtubePlay a{
   font-size: 20px;
