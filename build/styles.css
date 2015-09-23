@@ -259,7 +259,7 @@ a{
   margin-bottom: 30px;
   margin-left: 30px;
   font-size: 30px;
-  height: 60px;
+  height: auto;
   padding:15px;
   padding-left: 30px;
   border-radius: 20px;
@@ -307,11 +307,12 @@ a{
   margin-left: 30px;
 }
 .newsItem{
-  font-family:NSimSun;
+  font-family: NSimSun;
   margin-top: 100px;
-  margin-bottom: 150px;
-  margin-left: 30px;
+  margin-bottom: 120px;
+  margin-left: 20px;
   font-size: 60px;
+  height: auto;
 }
 
 .youtubePlay a{
