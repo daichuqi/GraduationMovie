@@ -2,6 +2,7 @@
     font-family: Light;
     src: url(light.woff);
 }
+
 body{
   background-color: #232323;
 }
@@ -104,6 +105,15 @@ a{
 }
 
 @media (min-width:550px) and (max-width:1500px){ /* DESKTOP */
+
+  .daiyijia{
+    font-size: 40px;
+    color: #eeeeee;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+  }
   .backMenu{
     color: white;
     margin: 0;
@@ -195,7 +205,7 @@ a{
     color: white;
     background-color:#191919;
     z-index: 1;
-    height: 350px;
+    height: 400px;
     transition: right 0.5s;
   }
 
@@ -203,7 +213,6 @@ a{
     font-size: 60px;
     color: #eeeeee;
     text-align: center;
-    padding: 10px;
     font-family: Light;
     text-transform: uppercase;
   }
@@ -240,6 +249,51 @@ a{
     padding-bottom: 430px;
     overflow: hidden;
   }
+  .newsTitle{
+  font-size: 30px;
+  margin-left: 50px;
+}
+.newsItem{
+  font-family:NSimSun;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  font-size: 30px;
+  height: 60px;
+  padding:15px;
+  padding-left: 30px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.newsItem:hover{
+  background-color: grey;
+}
+
+.youtubePlay a{
+  font-size: 20px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+.fa-youtube{
+  margin-right: 20px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.youtubePlay {
+    background-color: rgba(255, 0, 0, 0.47);
+    width: 300px;
+    height: 100px;
+    border-radius: 20px;
+    font-size: 40px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.youtubePlay:hover{
+  background-color: red;
+}
+
 }
 
 
@@ -254,9 +308,11 @@ a{
   margin-left: 30px;
 }
 .newsItem{
-  margin-top: 150px;
+  font-family:NSimSun;
+  margin-top: 100px;
+  margin-bottom: 150px;
   margin-left: 30px;
-  font-size:60px;
+  font-size: 60px;
 }
 
 .youtubePlay a{
@@ -314,6 +370,7 @@ a{
   text-transform: uppercase;
   top:2%;
   left:5%;
+  right:0;
   transition: right 1s;
 }
 
@@ -327,6 +384,7 @@ a{
     letter-spacing: 10px;
     top: 7.5%;
     left: 6%;
+    right:0;
     transition: right 1s;
   }
     .background{
@@ -342,11 +400,20 @@ a{
     margin-left: 0px;
     margin-top: 10px;
   }
+  .daiyijia{
+    font-size: 50px;
+    color: #eeeeee;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+  }
   .title{
     font-size: 90px;
     color: #eeeeee;
     text-align: center;
     padding: 10px;
+    padding-bottom: 0;
     font-family: Light;
     text-transform: uppercase;
     letter-spacing: -7px;
